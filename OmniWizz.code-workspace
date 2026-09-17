@@ -1,0 +1,28 @@
+{
+  "folders": [
+    {
+      "name": "OmniWizz (Root)",
+      "path": "."
+    },
+    {
+      "name": "WizzDesk Component",
+      "path": "WizzDesk"
+    },
+    {
+      "name": "WizzTest Component",
+      "path": "WizzTest"
+    },
+    {
+      "name": "WizzFlow Component",
+      "path": "WizzFlow"
+    },
+    {
+      "name": "WizzQA Component",
+      "path": "WizzQA"
+    }
+    { "name": "WizzAI Component",
+      "path": "WizzAI"
+  ],
+  "settings": {}
+}
+

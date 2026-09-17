@@ -1,0 +1,10 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // Example for Web/JS setups
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  // Ensure shared themes/styles are searchable across the workspace
+  "search.useIgnoreFiles": true 
+}
+

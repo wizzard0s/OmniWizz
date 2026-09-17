@@ -1,0 +1,18 @@
+{
+  "name": "WizzDesk Sandbox",
+  "image": "://microsoft.com", 
+  "remoteUser": "vscode",
+  "updateRemoteUserUID": true,
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Continue.continue" // Connects to your local 9070 XT Ollama instance
+      ]
+    }
+  },
+  "runArgs": [
+    "--net=host",
+    "--userns=keep-id"
+  ]
+}
+
