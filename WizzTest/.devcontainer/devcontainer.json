@@ -1,5 +1,5 @@
 {
-  "name": "WizzDesk Sandbox",
+  "name": "WizzTest Sandbox",
   "image": "://microsoft.com", 
   "remoteUser": "vscode",
   "updateRemoteUserUID": true,
@@ -16,6 +16,5 @@
     "--net=host",
     "--userns=keep-id"
   ],
-  "postCreateCommand": "pip install --upgrade pip && pip install psycopg2-binary asyncpg fastapi uvicorn"
+  "postCreateCommand": "pip install --upgrade pip && pip install psycopg2-binary pytest pytest-asyncio requests"
 }
-
